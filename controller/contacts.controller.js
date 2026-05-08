@@ -94,7 +94,7 @@ export const getUpdateContact = async (req, res) => {
 export const updateContact = async (req, res) => {
   const paramId = mongoose.Types.ObjectId.isValid(req.params.id)
   if (!paramId) {
-    return res.render('404', { message: 'Contact not found' })
+    return res.render('404', { message: 'Contact not found! Fahhhhhh' })
   }
 
   try {
