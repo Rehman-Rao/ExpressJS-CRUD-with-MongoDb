@@ -10,6 +10,7 @@ import { connectDB } from './config/database.js';
 // Database connection
 connectDB();
 
+// its jus a comment for testing git commit and push
 
 
 // Middle wares
