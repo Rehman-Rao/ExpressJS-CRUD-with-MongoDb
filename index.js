@@ -10,7 +10,7 @@ import { connectDB } from './config/database.js';
 // Database connection
 connectDB();
 
-
+// Hello world route
 
 // Middle wares
 app.set('view engine', 'ejs');
