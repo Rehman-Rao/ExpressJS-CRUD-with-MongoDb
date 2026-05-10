@@ -10,7 +10,6 @@ import { connectDB } from './config/database.js';
 // Database connection
 connectDB();
 
-// its jus a comment for testing git commit and push
 
 
 // Middle wares
@@ -29,5 +28,4 @@ app.listen(port, () => {
 
 
 
-// First try Starts from here. 
-// Another try for git commit and push.
+

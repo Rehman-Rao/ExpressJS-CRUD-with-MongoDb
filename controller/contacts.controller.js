@@ -3,7 +3,7 @@ import mongoose, { isValidObjectId } from 'mongoose';
 
 
 // Controller functions for handling contact-related operations
-// its just a comment
+
 // home
 export const getAllContacts = async (req, res) => {
   try {
@@ -94,7 +94,7 @@ export const getUpdateContact = async (req, res) => {
 export const updateContact = async (req, res) => {
   const paramId = mongoose.Types.ObjectId.isValid(req.params.id)
   if (!paramId) {
-    return res.render('404', { message: 'Contact not found! Fahhhhhh' })
+    return res.render('404', { message: 'Contact not found' })
   }
 
   try {
