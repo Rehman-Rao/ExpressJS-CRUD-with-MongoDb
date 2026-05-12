@@ -26,9 +26,5 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
-// New Comments here
-// New Comment for testing
-// Testing for git sync feature
-
 
 
